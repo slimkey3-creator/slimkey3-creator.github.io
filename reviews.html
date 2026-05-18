@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Обзоры - Журнал Компьютерный Мир</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo-area {
+            margin-bottom: 10px;
+        }
+        .logo-link img {
+            width: 80px;
+            height: auto;
+            border: none;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #34495e;
+            padding-bottom: 10px;
+        }
+        h3 {
+            color: #2980b9;
+            margin-top: 25px;
+        }
+        .review-card {
+            background: #fdfdfd;
+            border-left: 4px solid #16a085;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .review-title {
+            font-weight: bold;
+            font-size: 12pt;
+            color: #2c3e50;
+        }
+        .verdict {
+            margin-top: 10px;
+            font-style: italic;
+            color: #27ae60;
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .rating-badge {
+            background-color: #2980b9;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .preview-pic {
+            width: 200px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            transition: 0.3s;
+            margin: 10px 0;
+        }
+        .preview-pic:hover {
+            opacity: 0.8;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 10pt;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-area">
+            <a href="index.html" class="logo-link">
+                <img src="logo.png" alt="Логотип журнала Компьютерный Мир" />
+            </a>
+        </div>
+        <h1>Журнал «Компьютерный Мир»</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Главная</a> | 
+        <a href="hardware.html">Железо</a> | 
+        <a href="processors.html">Процессоры</a> | 
+        <a href="gpus.html">Видеокарты</a> | 
+        <a href="software.html">ПО</a> | 
+        <a href="os.html">Операционные системы</a> | 
+        <a href="games.html">Игры</a> | 
+        <a href="reviews.html">Обзоры</a> | 
+        <a href="news.html">Новости</a> | 
+        <a href="contacts.html">О редакции</a>
+    </nav>
+
+    <div class="container">
+        <h2>Раздел: Экспертные обзоры и тестирование</h2>
+        <p>В данном разделе эксперты нашей независимой тестовой лаборатории делятся результатами детальных испытаний компьютерных комплектующих, периферии и готовых систем. Каждый гаджет проходит серию жестких стресс-тестов под экстремальной нагрузкой, чтобы вы получали только объективную информацию перед покупкой.</p>
+        
+        <h3>Актуальные обзоры оборудования (Сезон 2026)</h3>
+
+        <div class="review-card">
+            <span class="review-title">Обзор СЖО (Системы жидкостного охлаждения) «Kraken X75 Pro»</span><br>
+            <p>С ростом тепловыделения современных флагманских процессоров стандартные башенные кулеры перестают справляться с нагрузкой. Новая 360-мм трехсекционная водянка показала беспрецедентные результаты: при рассеиваемой мощности в 300 Вт температура процессора не превысила 78°C. Комплектные вентиляторы на гидродинамических подшипниках работают бесшумно вплоть до 1200 об/мин.</p>
+            <div class="verdict">Вердикт: Идеальное премиум-решение для разгона процессоров Intel Ultra 9 и Ryzen 9.</div>
+        </div>
+
+        <div class="review-card">
+            <span class="review-title">Тест игрового монитора «VisionGear 32" OLED 240Hz»</span><br>
+            <p>Монитор построен на базе новейшей QD-OLED матрицы третьего поколения. Нам удалось зафиксировать абсолютный бесконечный контраст и эталонный глубокий черный цвет. Время отклика составляет невероятные 0.03 мс, что полностью исключает любые шлейфы за быстродвижущимися объектами в динамичных шутерах. Пиковая яркость в режиме HDR достигла внушительных 1200 нит.</p>
+            <div class="verdict">Вердикт: Лучший игровой монитор года, несмотря на высокую розничную стоимость.</div>
+        </div>
+
+        <div class="review-card">
+            <span class="review-title">Экспресс-тест NVMe накопителя «ApexDrive 4TB PCIe 5.0»</span><br>
+            <p>Твердотельный накопитель нового поколения задействует все 4 линии интерфейса PCI Express 5.0. В синтетических тестах скорость последовательного чтения вплотную приблизилась к отметке 14 500 МБ/с. Однако чип контроллера требует массивного радиатора с активным обдувом, иначе уже после 30 секунд непрерывной записи устройство уходит в троттлинг из-за перегрева.</p>
+            <div class="verdict">Вердикт: Экстремально быстрый диск, требующий серьезного охлаждения платы.</div>
+        </div>
+
+        <h3>Сводный рейтинг протестированных устройств</h3>
+        <p>На основе комплексного тестирования по 10-балльной шкале мы сформировали итоговую таблицу оценок для рассмотренных в этом месяце новинок:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Наименование устройства</th>
+                    <th>Производительность</th>
+                    <th>Эргономика / Охлаждение</th>
+                    <th>Соотношение цена/качество</th>
+                    <th>Итоговый балл</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>VisionGear 32" OLED Monitor</td>
+                    <td>10 / 10</td>
+                    <td>9 / 10</td>
+                    <td>7 / 10</td>
+                    <td><span class="rating-badge">8.7</span></td>
+                </tr>
+                <tr>
+                    <td>Kraken X75 Pro (СЖО)</td>
+                    <td>9 / 10</td>
+                    <td>10 / 10</td>
+                    <td>8 / 10</td>
+                    <td><span class="rating-badge">9.0</span></td>
+                </tr>
+                <tr>
+                    <td>ApexDrive 4TB PCIe 5.0 SSD</td>
+                    <td>10 / 10</td>
+                    <td>6 / 10</td>
+                    <td>6 / 10</td>
+                    <td><span class="rating-badge">7.3</span></td>
+                </tr>
+                <tr>
+                    <td>Механическая клавиатура ClickPro X</td>
+                    <td>8 / 10</td>
+                    <td>9 / 10</td>
+                    <td>9 / 10</td>
+                    <td><span class="rating-badge">8.6</span></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p style="margin-top: 30px;"><a href="index.html">← Вернуться на Главную страницу</a></p>
+    </div>
+
+    <footer>
+        <p>© 2026 Журнал «Компьютерный Мир». Все права защищены.</p>
+        <p>Адрес: г. Арсеньев, ул. мира, д. 11 | Тел: +7 999 617 97-01 | E-mail: SLimkeyX@gmail.ru</p>
+    </footer>
+
+</body>
+</html>

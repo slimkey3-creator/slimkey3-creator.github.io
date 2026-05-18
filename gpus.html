@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Видеокарты - Журнал Компьютерный Мир</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 11pt; /* Требование документа: 10-12 пт для текста */
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo-area {
+            margin-bottom: 10px;
+        }
+        .logo-link img {
+            width: 80px;
+            height: auto;
+            border: none;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #34495e;
+            padding-bottom: 10px;
+        }
+        h3 {
+            color: #2980b9;
+            margin-top: 25px;
+        }
+        .gpu-card {
+            background: #fdfdfd;
+            border-left: 4px solid #e74c3c; /* Красный акцент для раздела видеокарт */
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .gpu-title {
+            font-weight: bold;
+            font-size: 12pt;
+            color: #2c3e50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .preview-pic {
+            width: 200px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            transition: 0.3s;
+            margin: 10px 0;
+        }
+        .preview-pic:hover {
+            opacity: 0.8;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 10pt;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-area">
+            <a href="index.html" class="logo-link">
+                <img src="logo.png" alt="Логотип журнала Компьютерный Мир" />
+            </a>
+        </div>
+        <h1>Журнал «Компьютерный Мир»</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Главная</a> | 
+        <a href="hardware.html">Железо</a> | 
+        <a href="processors.html">Процессоры</a> | 
+        <a href="gpus.html">Видеокарты</a> | 
+        <a href="software.html">ПО</a> | 
+        <a href="os.html">Операционные системы</a> | 
+        <a href="games.html">Игры</a> | 
+        <a href="reviews.html">Обзоры</a> | 
+        <a href="news.html">Новости</a> | 
+        <a href="contacts.html">О редакции</a>
+    </nav>
+
+    <div class="container">
+        <h2>Раздел: Графические ускорители (Видеокарты)</h2>
+        <p>Графический процессор (GPU) давно перерос роль простого вывода картинки на экран. В 2026 году видеокарты стали ключевым элементом для работы локальных нейросетей, генеративного искусственного интеллекта,  3D-моделирования и, разумеется, современных видеоигр высокой четкости с полной трассировкой лучей (Path Tracing). В этом сегменте рынка традиционно конкурируют три технологических гиганта: NVIDIA, AMD и активно развивающийся Intel.</p>
+        
+        <h3>Ключевые технологии графики в 2026 году</h3>
+        <p>При выборе современной видеокарты пользователи обращают внимание не только на «чистую» вычислительную силу, но и на поддержку технологий умного масштабирования:</p>
+        <ul>
+            <li><strong>NVIDIA DLSS 4.0:</strong> Революционный алгоритм реконструкции кадров и текстур на базе тензорных ядер нового поколения, минимизирующий артефакты апскейлинга.</li>
+            <li><strong>AMD FSR 4:</strong> Полностью открытый стандарт масштабирования, перешедший на полноценное использование аппаратных ИИ-блоков архитектуры RDNA.</li>
+            <li><strong>Ray Tracing (Трассировка лучей):</strong> Расчет физически корректного поведения света, отражений и теней в реальном времени, ставший базовым стандартом индустрии.</li>
+        </ul>
+
+        <h3>ТОП-5 видеокарт на 2026 год</h3>
+        <p>По полученным данным о производительности видеокарт ниже представлен актуальный рейтинг лучших решений текущего сезона:</p>
+
+        <div class="gpu-card">
+            <span class="gpu-title">1 место — NVIDIA GeForce RTX 5090 (Ультимативный флагман)</span><br>
+            Бескомпромиссный лидер рынка на новой архитектуре Blackwell. Оснащенная колоссальным объемом сверхбыстрой памяти GDDR7, эта видеокарта создана для гейминга в честном разрешении 4K/8K, а также профессионального обучения тяжелых ИИ-моделей. Единственный минус — высокое энергопотребление.
+        </div>
+
+        <div class="gpu-card">
+            <span class="gpu-title">2 место — NVIDIA GeForce RTX 5070 Ti (Лучший баланс возможностей и цены)</span><br>
+            Главный хит продаж 2026 года для продвинутых пользователей. Карта предлагает производительность на уровне флагманов прошлого поколения, полную поддержку DLSS 4.0 и отличный объем видеопамяти, легко справляясь с любыми играми на максимальных настройках графики.
+        </div>
+
+        <div class="gpu-card">
+            <span class="gpu-title">3 место — AMD Radeon RX 8900 XTX (Король «чистой» производительности)</span><br>
+            Топовое решение от AMD на базе архитектуры RDNA 4. Модель предлагает традиционно больший объем видеопамяти по сравнению с конкурентами за ту же цену и колоссальную скорость в стандартном растровом рендеринге (без трассировки лучей), являясь отличным выбором для работы и киберспорта.
+        </div>
+
+        <div class="gpu-card">
+            <span class="gpu-title">4 место — AMD Radeon RX 8700 XT (Лучший среднебюджетный выбор)</span><br>
+            Народная видеокарта нового поколения. Идеально сбалансирована для игр в разрешении 1440p (2K). Обладает низким тепловыделением, что позволяет устанавливать её в компактные корпуса со стандартными блоками питания.
+        </div>
+
+        <div class="gpu-card">
+            <span class="gpu-title">5 место — Intel Arc Celestial B770 (Прорыв в бюджетном сегменте)</span><br>
+            Второе полноценное поколение дискретной графики от Intel продемонстрировало глубокую работу над ошибками. За счет отличной отладки драйверов и привлекательной цены, эта карта стала лучшим решением начального уровня для входа в современный гейминг.
+        </div>
+
+        <h3>Сравнительные технические характеристики ТОП-видеокарт</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Модель видеокарты</th>
+                    <th>Объем памяти</th>
+                    <th>Тип памяти</th>
+                    <th>Шина памяти</th>
+                    <th>Рекомендуемый БП</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>NVIDIA GeForce RTX 5090</td>
+                    <td>28 ГБ</td>
+                    <td>GDDR7</td>
+                    <td>448-bit</td>
+                    <td>850 Вт+</td>
+                </tr>
+                <tr>
+                    <td>NVIDIA GeForce RTX 5070 Ti</td>
+                    <td>16 ГБ</td>
+                    <td>GDDR7</td>
+                    <td>256-bit</td>
+                    <td>650 Вт</td>
+                </tr>
+                <tr>
+                    <td>AMD Radeon RX 8900 XTX</td>
+                    <td>24 ГБ</td>
+                    <td>GDDR6X / GDDR7</td>
+                    <td>384-bit</td>
+                    <td>750 Вт</td>
+                </tr>
+                <tr>
+                    <td>AMD Radeon RX 8700 XT</td>
+                    <td>16 ГБ</td>
+                    <td>GDDR6X</td>
+                    <td>256-bit</td>
+                    <td>600 Вт</td>
+                </tr>
+                <tr>
+                    <td>Intel Arc Celestial B770</td>
+                    <td>12 ГБ</td>
+                    <td>GDDR6</td>
+                    <td>192-bit</td>
+                    <td>550 Вт</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Конструкция системы охлаждения</h3>
+        <p>Современные графические процессоры выделяют значительное количество тепла. Посмотреть схему строения радиатора на тепловых трубках можно ниже:</p>
+        
+        <a href="images/gpu_cooling_full.jpg" target="_blank">
+            <img src="gpu_cooling.jpg" alt="Инженерная схема системы охлаждения видеокарты" class="preview-pic" />
+        </a>
+
+        <p style="margin-top: 30px;"><a href="index.html">← На Главную страницу</a></p>
+    </div>
+
+    <footer>
+        <p>© 2026 Журнал «Компьютерный Мир». Все права защищены.</p>
+        <p>Адрес: г. Арсеньев, ул. мира, д. 11 | Тел: +7 999 617 97-01 | E-mail: SLimkeyX@gmail.ru</p>
+    </footer>
+
+</body>
+</html>
