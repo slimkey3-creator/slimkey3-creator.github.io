@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Новости - Журнал Компьютерный Мир</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo-area {
+            margin-bottom: 10px;
+        }
+        .logo-link img {
+            width: 80px;
+            height: auto;
+            border: none;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #34495e;
+            padding-bottom: 10px;
+        }
+        h3 {
+            color: #2980b9;
+            margin-top: 25px;
+        }
+        .news-item {
+            background: #fdfdfd;
+            border-left: 4px solid #f1c40f;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .news-date {
+            font-size: 9.5pt;
+            color: #7f8c8d;
+            font-weight: bold;
+        }
+        .news-title {
+            font-weight: bold;
+            font-size: 12pt;
+            color: #2c3e50;
+            margin: 5px 0;
+            display: block;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .preview-pic {
+            width: 200px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            transition: 0.3s;
+            margin: 10px 0;
+        }
+        .preview-pic:hover {
+            opacity: 0.8;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 10pt;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-area">
+            <a href="index.html" class="logo-link">
+                <img src="logo.png" alt="Логотип журнала Компьютерный Мир" />
+            </a>
+        </div>
+        <h1>Журнал «Компьютерный Мир»</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Главная</a> | 
+        <a href="hardware.html">Железо</a> | 
+        <a href="processors.html">Процессоры</a> | 
+        <a href="gpus.html">Видеокарты</a> | 
+        <a href="software.html">ПО</a> | 
+        <a href="os.html">Операционные системы</a> | 
+        <a href="games.html">Игры</a> | 
+        <a href="reviews.html">Обзоры</a> | 
+        <a href="news.html">Новости</a> | 
+        <a href="contacts.html">О редакции</a>
+    </nav>
+
+    <div class="container">
+        <h2>Раздел: Новости высоких технологий</h2>
+        <p>Ежедневная информационная лента нашего журнала держит вас в курсе самых главных событий из мира ИТ, компьютерного производства, полупроводниковых технологий и корпоративных слияний. Мы отбираем только проверенные факты, официальные анонсы вендоров и инсайды от надежных отраслевых источников.</p>
+        
+        <h3>Лента последних событий (Май 2026)</h3>
+
+        <div class="news-item">
+            <div class="news-date">15 мая 2026 г.</div>
+            <span class="news-title">Утвержден финальный стандарт оперативной памяти DDR6</span>
+            <p>Комитет стандартизации JEDEC официально опубликовал технические спецификации оперативной памяти следующего поколения — DDR6. Базовые модули начнут свою работу с эффективной частоты в 8800 МГц, а в режиме разгона вплотную приблизятся к психологической отметке в 17 ГГц. Массовое производство микросхем начнется ближе к концу года, первыми новые модули получат серверные платформы.</p>
+        </div>
+
+        <div class="news-item">
+            <div class="news-date">12 мая 2026 г.</div>
+            <span class="news-title">TSMC запускает массовое производство чипов по 1.4-нанометровому техпроцессу</span>
+            <p>Крупнейший тайваньский полупроводниковый гигант TSMC объявил о полном переходе заводов Фабрики 20 на технологический процесс A14 (1.4 нм). Новая геометрия кремниевых транзисторов позволит увеличить плотность размещения элементов на кристалле на 20% по сравнению с 2-нанометровыми аналогами. Ожидается, что первыми заказчиками сверхтехнологичных процессоров станут компании Apple и AMD.</p>
+        </div>
+
+        <div class="news-item">
+            <div class="news-date">09 мая 2026 г.</div>
+            <span class="news-title">Представлен стандарт беспроводной связи Wi-Fi 8 (802.11bn)</span>
+            <p>Консорциум Wi-Fi Alliance анонсировал запуск сертификации устройств с поддержкой беспроводных сетей нового поколения. Главным упором в Wi-Fi 8 стала не пиковая скорость передачи данных, а максимальная надежность соединения и стабильность задержек (пинг) в условиях сильной зашумленности радиоэфира многоквартирных домов за счет интеллектуального перераспределения частотных каналов.</p>
+        </div>
+
+        <h3>Календарь ожидаемых анонсов и выставок</h3>
+        <p>Для вашего удобства редакция составила сводную таблицу крупнейших мировых ИТ-мероприятий текущего года, на которых будут представлены главные железные новинки:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Название ИТ-выставки</th>
+                    <th>Место проведения</th>
+                    <th>Даты проведения</th>
+                    <th>Главная ожидаемая тема</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Computex 2026</strong></td>
+                    <td>Тайбэй, Тайвань</td>
+                    <td>Июнь 2026</td>
+                    <td>Новые материнские платы и архитектуры CPU</td>
+                </tr>
+                <tr>
+                    <td><strong>Gamescom 2026</strong></td>
+                    <td>Кёльн, Германия</td>
+                    <td>Август 2026</td>
+                    <td>Демонстрация игр на движках нового поколения</td>
+                </tr>
+                <tr>
+                    <td><strong>ИИ-Саммит Глобал</strong></td>
+                    <td>Сан-Франциско, США</td>
+                    <td>Октябрь 2026</td>
+                    <td>Локальные нейросети для ПК и операционных систем</td>
+                </tr>
+                <tr>
+                    <td><strong>CES 2027 (Анонс)</strong></td>
+                    <td>Лас-Вегас, США</td>
+                    <td>Январь 2027</td>
+                    <td>Потребительская электроника, новые видеокарты</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Эволюция технологий беспроводного вещания</h3>
+        <p>Каждое поколение беспроводной связи усложняет алгоритмы кодирования сигнала. Посмотреть графическую схему распределения частотных диапазонов и ширины каналов в современных роутерах вы можете ниже:</p>
+        
+        <a href="images/wifi_channels_full.jpg" target="_blank">
+            <img src="wifi_channels.jpg" alt="Диаграмма распределения частотных каналов Wi-Fi 7 и Wi-Fi 8" class="preview-pic" />
+        </a>
+        <p><em>Нажмите на диаграмму для просмотра схемы каналов в оригинальном разрешении.</em></p>
+
+        <p style="margin-top: 30px;"><a href="index.html">← Вернуться на Главную страницу</a></p>
+    </div>
+
+    <footer>
+        <p>© 2026 Журнал «Компьютерный Мир». Все права защищены.</p>
+        <p>Адрес: г. Арсеньев, ул. мира, д. 11 | Тел: +7 999 617 97-01 | E-mail: SLimkeyX@gmail.ru</p>
+    </footer>
+
+</body>
+</html>
